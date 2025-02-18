@@ -1,3 +1,4 @@
+import haha from "./assets/roona.jpg";
 function App() {
   return (
     <>
@@ -5,7 +6,7 @@ function App() {
         <h1>ROONA PORTOFOOLIO</h1>
       </div>
 
-      <img src="./src/assets/roona.jpg" alt="" />
+      <img src={haha} alt="" />
     </>
   );
 }
